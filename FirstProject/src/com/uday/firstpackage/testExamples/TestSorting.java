@@ -9,8 +9,7 @@ public class TestSorting {
 
 	public static void main(String[] args) {
 
-		List<Developer> listDevs = getDevelopers();
-
+		List<Developer> listDevs = getDevelopers();		
 		System.out.println("Before Sort");
 		listDevs.forEach((developer)->System.out.println("name  " + developer.name + "age   " + developer.age));
 		System.out.println();
